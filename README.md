@@ -16,3 +16,9 @@ APP_POSTGRES_DATABASE="laba"
 APP_POSTGRES_PORT="5432"
 APP_PORT="8871"
 ```
+### Start
+
+```sh
+docker compose build
+docker compose up [-d]
+```
